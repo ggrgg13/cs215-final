@@ -4,6 +4,7 @@ app = Flask(__name__)
 
 table_df = pd.read_csv('templates/table.csv')
 table2_df = pd.read_csv('templates/table2.csv')
+app.config['static'] = '/image'
 
 @app.route('/')
 def home():
