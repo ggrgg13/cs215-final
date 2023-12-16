@@ -1,0 +1,38 @@
+Data Manifesto
+Your data manifesto is your personal reflection, based on your experiences in this class, on how you define data, how you define data science, and how you approach working with data. A good example of a manifesto that we have read in class is Giorgia Lupi's "Data Humanism."Links to an external site. Note how she outlines her philosophy with clear principles, and illustrates them with examples.
+
+Before you begin writing, think carefully about the following questions:
+
+What is data, and how is it distinct from information, knowledge, facts, and other terms we use? Here, you might reflect on the DIKW pyramid as well as Jill Lepore's data file cabinet metaphor. Your data manifesto might even include an updated version of one of these models.
+What does it mean to be a data scientist?
+What skills do you need to do data work (including implementation as well as critical thinking)?
+What advice might you give to someone who is hoping to become a data scientist?
+What kinds of problems can you solve / questions can you answer through data analysis and visualization? What kinds of questions can you not solve?
+As we have seen throughout the semester, data is not neutral and data science always has people behind it. Thus, you should also reflect on what you, as a person, bring to your work as a data scientist.
+
+Together, these questions should guide you to at least 4 main principles that define your data science process. To do this, imagine you must translate your data processes to a new data project you have not explored in class. How would you implement a data science process for this hypothetical project that espouses your principles?
+
+Your data manifesto should also communicate what you think are the most important points about data science to someone who hasn’t taken this class.
+
+When you discuss these topics, you should frequently reference (and include examples of!) data projects that we did in class (in-class activities and homework projects are all fair game), as well as the examples that we read about in our readings and discussed in our annotations.
+
+Requirements for your Data Manifesto
+Length: There is no required word count, but it should be roughly similar in length to Giorgia Lupi's piece.
+Clarity: Your post should be cohesive, with an introduction, a body, and a conclusion. Does it read like many scattered ideas, or do they come together to form a central thesis?
+Evidence-Driven: Each of your takeaways should be informed by your experiences in this class, including activities and readings, so when you discuss them, you should references (code snippets, images, quotes, etc.).
+Data Cookbook
+You will create a cookbook that serves as a collection of the most useful data science techniques you learned this semester, along with sample code that you implement on an actual dataset. Think of this a gift to your future self -- perhaps you are looking back at this class a year from now because you have a data science internship, and you want to remember how to start a web-scraping project, or how to sort a dataframe to find the largest values, etc. I cannot emphasize how useful this kind of resource will be :) I refer to old Jupyter notebooks I have made constantly when starting new projects to find data recipes that I can repurpose. With this assignment, you are setting yourself up to easily be able to find the most useful things you learned this semester.
+
+For an example of what I mean by a cookbook, check out Julia Evans' pandas cookbook,Links to an external site. which includes a series of Jupyter notebooks. The SonicPi Code CookbookLinks to an external site. is another nice example (not in Python, but the format is a good model). For a cookbook that is more conceptual and less coding-based, check out the Data Science CookbookLinks to an external site., put together by several people within various Department of Defense roles.
+
+Requirements for your Data Cookbook:
+Your data cookbook should include at least 4 individual recipes.
+Each recipe should include code as well as an explanation of how the code works. It should be clear enough that someone who has not taken this class (but who has taken CS167) can follow it.
+The recipes don't have to be huge! (For example, one recipe might be "How to find the maximum value." That recipe would include how to sort a dataframe by the values in a particular column and then print out the largest value.)
+Your data recipes should present examples using actual data. (You don't have to use the same dataset for all of the examples, but you can.)
+The data you use in your examples cannot come from the shared activities we did (i.e., you CANNOT use the Whitman STEM outcomes data, but you can use the API you explored in Project 6, or your personal data from Project 8, or the data you chose for Project 9).
+At least one of your recipes should show two different ways to accomplish the same task.
+Deliverables
+Your main deliverable is a GitHub repository that contains your Data Cookbook and any data files needed to run the recipes in the cookbook. Upload the link to your GitHub repository to Canvas.
+Your Data Cookbook should be in the form of a Jupyter notebook. Note that if you want to include a recipe that is in another format (i.e., Observable/Javascript, SQL and BigQuery), that is ok -- just make sure you describe this clearly and include all necessary files in your repo.
+Your Data Manifesto can be any format you want (a PDF, a Jupyter notebook, or even the .readme file on your GitHub repo). If you feel comfortable sharing it publicly, you can put it in your GitHub repo. Otherwise, you can upload it directly to Canvas.
